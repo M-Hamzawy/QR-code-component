@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+}
+.container{
+    position: absolute; /*if i didn't add hight to the parent of the container the relative position will not work using top or bottom properties*/
+    height: 480px;
+    width: 300px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    text-align: center;
+}
+img{
+    width: 90%;
+    height: 60%;
+    margin: 5%;
+    border-radius: 20px;
+}
+.bold-p{
+    font-weight: 800;
+    font-size: larger;
+    margin: 0 auto auto auto;
+    width: 90%;
+    color:hsl(218, 44%, 22%);
+
+}
+.thin-p{
+    font-weight: 400;
+    font-size: 15px;
+    width: 90%;
+    margin: 20px auto auto auto;
+    color: hsl(220, 15%, 55%);
+}
+.attribution{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
